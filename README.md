@@ -1,8 +1,17 @@
 # Distillation Techniques for Pseudo-rehearsal Based Incremental Learning
-This repository contains code for the paper [Distillation Techniques for Pseudo-rehearsal Based Incremental Learning](https://arxiv.org/abs/1807.02799). It also contains the code to reproduce the results of [iCarl](https://arxiv.org/abs/1611.07725) paper. The implementation is done using Pytorch.
+This repository contains the Pytorch code for the paper:
 
-## Requirements
-The requirements.txt file contains all the requirements along with their specific versions. These requirements can be installed by using `pip install -r requirements.txt`
+**Title:** [Distillation Techniques for Pseudo-rehearsal Based Incremental Learning](https://arxiv.org/abs/1807.02799).
+
+**Authors:** Haseeb Shah, Khurram Javed and Faisal Shafait
+
+**Affiliation:** National University of Science and Technology.
+
+**Abstract:**
+The ability to learn from incrementally arriving data is essential for any life-long learning system. However, standard deep neural networks forget the knowledge about the old tasks, a phenomenon called catastrophic forgetting, when trained on incrementally arriving data. We discuss the biases in current Generative Adversarial Networks (GAN) based approaches that learn the classifier by knowledge distillation from previously trained classifiers. These biases cause the trained classifier to perform poorly. We propose an approach to remove these biases by distilling knowledge from the classifier of AC-GAN. Experiments on MNIST and CIFAR10 show that this method is comparable to current state of the art rehearsal based approaches.
+
+## Dependencies
+The requirements.txt file contains all the dependencies along with their specific versions. These dependencies can be fulfilled by using `pip install -r requirements.txt`
 
 ## Usage
 TODO
